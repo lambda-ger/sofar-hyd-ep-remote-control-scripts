@@ -18,14 +18,20 @@ python3 ./auto.py
 
 # set inverter to charge
 python3 ./charge.py
+
 or
+
 python3 ./charge.py 1000
+
 if no value is specified, 5000 watts is assumed
 (can be changed in the file)
 
 # set inverter to discharge
 python3 ./discharge.py
+
 or
+
 python3 ./discharge.py 1000
+
 if no value is specified, 5000 watts is assumed
 (can be changed in the file)
