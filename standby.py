@@ -34,7 +34,7 @@ def standby():
             time.sleep(0.2)
 
         # prepare the power value
-        values = struct.pack(">l", 0)
+        values = struct.pack(">l", power)
         # split low and high byte
         low = struct.unpack(">H", bytearray([values[0], values[1]]))[0]
         high = struct.unpack(">H", bytearray([values[2], values[3]]))[0]
